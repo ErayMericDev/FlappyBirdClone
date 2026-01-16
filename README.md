@@ -19,7 +19,7 @@ Unity oyun motoru ve C# kullanılarak geliştirilmiş, popüler Flappy Bird oyun
 * C#
  
 ## 👨‍💻 İletişim
-**Senin Adın Soyadın** - Bilgisayar Mühendisliği Öğrencisi
+**Eray Meriç** - Bilgisayar Mühendisliği Öğrencisi
 * **LinkedIn:** [https://www.linkedin.com/in/eray-meri%C3%A7-950089340/]
 * **Email:** [eraymeric51@hotmail.com] 
 <img width="925" height="506" alt="Ekran görüntüsü 2026-01-16 213702" src="https://github.com/user-attachments/assets/03541731-465a-46bb-9206-19abf590be18" />
