@@ -5,10 +5,16 @@
 Unity oyun motoru ve C# kullanılarak geliştirilmiş, popüler Flappy Bird oyununun klonudur.
 
 ## 🎮 Özellikler
-* **Sonsuz Oynanış:** Dinamik olarak üretilen boru sistemi.
-* **Skin Sistemi:** Farklı kuş görünümleri seçebilme.
-* **Kayıt Sistemi:** En yüksek skoru (High Score) hafızada tutma.
-* **Parallax Efekt:** Hareketli zemin ve arka plan.
+* **Sonsuz Oynanış:** Dinamik olarak üretilen boru sistemi (Object Pooling mantığı ile).
+* **Skin Sistemi:** Menüden farklı kuş görünümleri seçebilme özelliği.
+* **Kayıt Sistemi:** `PlayerPrefs` kullanılarak En Yüksek Skorun (High Score) hafızada tutulması.
+* **Parallax Efekt:** Hareketli zemin ve arka plan ile derinlik algısı.
+
+## 🏗️ Teknik Mimari (Technical Details)
+Proje, Nesne Yönelimli Programlama (OOP) prensiplerine uygun olarak geliştirilmiştir:
+* **GameManager:** Singleton tasarım deseni ile oyunun durumu (State) ve UI yönetimi.
+* **Spawner:** Rastgele (Random) algoritmalarla boru üretimi.
+* **Physics:** Unity'nin Rigidbody2D fiziği ile çarpışma ve yerçekimi kontrolü.
 
 ## 🕹️ Nasıl Oynanır?
 * Ekrana tıklayarak (veya Mouse Sol Tık) kuşu zıplatın.
