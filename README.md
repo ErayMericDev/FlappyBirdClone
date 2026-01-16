@@ -13,5 +13,5 @@ Unity oyun motoru ve C# kullanılarak geliştirilmiş, popüler Flappy Bird oyun
 * Borulara çarpmadan ilerleyin.
 
 ## 🛠️ Kullanılan Teknolojiler
-* Unity 2021 (veya senin sürümün)
+* Unity 2021 
 * C#
